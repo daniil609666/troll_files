@@ -1,0 +1,2 @@
+import py_win_keyboard_layout
+py_win_keyboard_layout.change_foreground_window_keyboard_layout(0x04090409)

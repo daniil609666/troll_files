@@ -1,0 +1,6 @@
+# сделать процесс критичным
+import ctypes
+ctypes.windll.ntdll.RtlAdjustPrivilege(20, 1, 0, ctypes.byref(ctypes.c_bool()))
+ctypes.windll.ntdll.RtlSetProcessIsCritical(1, 0, 0) == 0
+# сделать процесс некритичным
+ctypes.windll.ntdll.RtlSetProcessIsCritical(0, 0, 0)

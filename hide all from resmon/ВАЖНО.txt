@@ -1,0 +1,3 @@
+resmon.resmoncfg копировать в C:\Users\%username%\AppData\Local\
+
+copy /y resmon.resmoncfg C:\Users\%username%\AppData\Local\resmon.resmoncfg
